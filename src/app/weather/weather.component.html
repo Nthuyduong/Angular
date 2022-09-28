@@ -1,12 +1,16 @@
 <div class="container">
     <div class="row">
-        <div class="col-3">
-            <div class="forecast" *ngFor ="let c of wea">
-                <div class="box-weather">
+        <div class="col-3 mb-3 forecast" *ngFor ="let c of wea">
+            <div class="card p-3 box-weather">
                     <h4>{{c.dt_txt}}</h4>
                     <h2>{{c.main.temp}}<sup>o</sup>C</h2>
-                    <p>{{c.weather[0].description}}</p>
-                    <img src="https://openweathermap.org/img/wn/{{c.weather[0].icon}}@2x.png"/>
+                <div class="row">
+                    <div class="col-6">
+                        <p>{{c.weather[0].description}}</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="https://openweathermap.org/img/wn/{{c.weather[0].icon}}@2x.png"/>
+                    </div>
                 </div>
             </div>
         </div>
