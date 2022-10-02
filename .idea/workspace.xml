@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d38c222e-2f44-40b5-9e2e-971935390939" name="Changes" comment="update" />
+    <list default="true" id="d38c222e-2f44-40b5-9e2e-971935390939" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/app/gdien/gdien.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/gdien/gdien.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/gdien/gdien.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/interfaces/gdien.interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/weather/weather.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/weather/weather.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -29,18 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/nguyenthuyduong/Documents/agl",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/nguyenthuyduong/Documents/agl/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nguyenthuyduong/Documents/agl&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/nguyenthuyduong/Documents/agl/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -61,7 +73,11 @@
       <workItem from="1664190574179" duration="156000" />
       <workItem from="1664191075096" duration="2339000" />
       <workItem from="1664193708392" duration="1471000" />
-      <workItem from="1664196426422" duration="18294000" />
+      <workItem from="1664196426422" duration="18415000" />
+      <workItem from="1664347879618" duration="2788000" />
+      <workItem from="1664501733299" duration="606000" />
+      <workItem from="1664716412973" duration="11904000" />
+      <workItem from="1664729228881" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1664192966744</created>
@@ -126,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664343932955</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1664347729561</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664347729562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

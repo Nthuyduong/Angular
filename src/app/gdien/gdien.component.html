@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="left border col-4">
+        <div class="row card1 mb-3" *ngFor ="let t of gd">
+            <div (click)="handlerClickItem(t)" class="col-2">
+                <img class="rounded-circle" src="assets/img/ava1.png">
+            </div>
+            <div class="col-10">
+                <h6 class="align-bottom">{{t.name}}</h6>
+            </div>
+        </div>
+    </div>
+    <div class="right border col-8">
+        <div class="info">
+            <img class="mx-auto" src="assets/img/ava1.png">
+            <h5 class="text-center">{{person.name}}</h5>
+        </div>
+        <table class="table table-bordered">
+            <tbody>
+                <tr >
+                    <td>Title</td>
+                    <td>{{person.title}}</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>{{person.date}}</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>{{person.address}}</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>{{person.phone}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
