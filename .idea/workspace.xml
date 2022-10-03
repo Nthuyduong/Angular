@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38c222e-2f44-40b5-9e2e-971935390939" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/app/AJSthi/thi.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/AJSthi/thi.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/AJSthi/thi.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/interfaces/thi.interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/AJSthi/thi.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AJSthi/thi.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/AJSthi/thi.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AJSthi/thi.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/interfaces/thi.interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/interfaces/thi.interfaces.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,8 @@
       <workItem from="1664729335438" duration="211000" />
       <workItem from="1664729586161" duration="469000" />
       <workItem from="1664730106363" duration="6179000" />
-      <workItem from="1664800133622" duration="2471000" />
+      <workItem from="1664800133622" duration="2821000" />
+      <workItem from="1664806149722" duration="6526000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1664192966744</created>
@@ -158,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664729463937</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1664802879451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664802879454</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

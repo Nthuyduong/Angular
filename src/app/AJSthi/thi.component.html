@@ -1,9 +1,7 @@
-<div class="mt-3 border-bottom">
+<div class="mt-3 border-bottom" >
     <div>
-        <ul class="d-flex">
-            <li><a href="#">Rome</a></li>
-            <li class="mx-3"><a href="#">Paris</a></li>
-            <li><a href="#">London</a></li>
+        <ul class="d-flex" >
+            <li class="me-3" *ngFor ="let m of nav" (click)="handlerClickItem(m)">{{m.city}}</li>
         </ul>
     </div>
 </div>
@@ -13,7 +11,7 @@
     <div class="col-8">
         <div class="row card1 mb-3 border-bottom" *ngFor ="let d of bt">
             <div class="col-1">
-                <img class="rounded-circle" src="assets/img/ava1.png">
+                <img class="rounded-circle" src="{{d.im}}">
             </div>
             <div class="col-11">
                 <h6 class="align-bottom mb-0">{{d.name}}</h6>
