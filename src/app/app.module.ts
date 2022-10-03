@@ -14,6 +14,7 @@ import {FoodComponent} from "./pages/food/food.component"
 import {HttpClientModule} from "@angular/common/http";
 import {WeatherComponent} from "./weather/weather.component";
 import {GdienComponent} from "./gdien/gdien.component";
+import {ThiComponent} from "./AJSthi/thi.component";
 
 //Khai bao cac page trong website//
 //mang chua cac link de chi dinh//
@@ -24,13 +25,14 @@ const appRoutes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'food', component: FoodComponent},
   {path: 'weather', component: WeatherComponent},
-  {path: 'gdien', component: GdienComponent}
+  {path: 'gdien', component: GdienComponent},
+  {path: 'baithi', component: ThiComponent}
 ]
 
 @NgModule({
   declarations: [
     AppComponent, StudentComponent, ClassComponent, HomeComponent, LoginComponent, AboutComponent, ContactComponent,
-    FoodComponent, WeatherComponent, GdienComponent
+    FoodComponent, WeatherComponent, GdienComponent, ThiComponent
   ],
   imports: [
     BrowserModule, FormsModule, RouterModule.forRoot(appRoutes), HttpClientModule
